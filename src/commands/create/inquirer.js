@@ -223,7 +223,7 @@ module.exports = function makeInquirer( { prompt } ) {
 			{
 				name: 'elasticsearch',
 				type: 'confirm',
-				message: 'Do you need Elasticsearch',
+				message: 'Do you need Elasticsearch?',
 				default: false,
 				when: defaultIsUndefined( elasticsearch ),
 			},
